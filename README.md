@@ -1,13 +1,13 @@
 # Airline-Sentiment-Revenue-Decline-Analysis
 ## Executive Summary:
-SkyWings Airlines faced a sharp revenue decline (Business −26%, Economy −18% YoY) alongside rising negative reviews. Using KNIME text mining and Tableau KPI dashboards, my team and identified the biggest pain points: cancellations at 15% vs 2% industry benchmark, and complaints concentrated in poor customer service (35.08%) and low quality perception (34.6%). Hence, we recommended the airline to:
+SkyWings Airlines is facing a sharp revenue decline (Business −26%, Economy −18% YoY) alongside a deteriorating online brand image and average customer rating of 3/5. Using provided bookings and review datasets (2023-2024), my team and I built a KNIME text-mining workflow and two interactive Tableau dashboards + a management story connect customer feedback with booking performance and identify the highest-impact levers for recovery. Findings suggest declining trust driven by reliability and service shortcomings, with the largest upside in retaining and winning back returning Economy flyers. Hence, we recommended SkyWings to:
 
 1. Reduce cancellations and strengthen service recovery with a 3-stage “Service Netting” plan (prevent, respond, recover).
-2. Win back returning Economy customers (core revenue segment) via loyalty perks + targeted recovery offers.
-3. Redesign promotions (only 16.91% promo usage) to be more visible and targeted.
+2. Win back returning Economy customers using loyalty-style benefits and targeted outreach.
+3. Redesign promotions to be more visible and targeted, then track uplift over time.
 
 ## Business Problem:
-For an airline, bookings and reputation are closely tied to revenue. Despite having gained initial popularity for its competitive pricing, SkyWings is seeing booking decline and rising negative reviews. Given that the company has relevant data, it needs an analytical workflow to guide operational improvements for revenue growth. What is causing the decline in business performance and what changes should be prioritised to reverse it?
+For an airline, bookings and reputation directly drive revenue. SkyWings, once popular for competitive pricing, is now seeing declining bookings and rising negative reviews. With customer reviews and transaction data available, SkyWings needs an analytical workflow to understand "What is causing the decline in business performance and what changes should be prioritised to reverse it?"
 
 ## Methodology:
 
@@ -23,8 +23,6 @@ For an airline, bookings and reputation are closely tied to revenue. Despite hav
 **Analytics**: Customer sentiment analysis, KPI diagnostics + benchmarking, insight-to-recommendation storytelling
 
 ## Results & Business Recommendation:
-Building a single view (2 dashboards) that connects transaction KPIs (bookings, revenue, disruptions) with voice-of-customer (reviews, complaint themes) clarifies why SkyWings is underperforming and where to intervene first.
-
 ### Key results & implications:
 - Revenue fell >19% YoY (2024 vs 2023) because bookings fell, especially among repeat flyers.
   - **Implication**: The priority is retention/ win-back, not just acquisition.
@@ -32,15 +30,14 @@ Building a single view (2 dashboards) that connects transaction KPIs (bookings, 
   - **Implication**: Returning Economy customers is the highest-ROI segment to fix.
 - Cancelled flight rates are significantly higher than industry norms (15% vs 2% in 2024). 
   - **Implication**: Cancellations are the main operational "trust breaker" driving lost bookings and negative sentiment.
-- Sentiment is net-negative (37% negative vs 30% positive). Top complaint themese are poor customer service (35.08%) and low qualty perception (34.6%).
-  - **Implication**: Given that customers are more upset about "intangibles", not product features, improving service quality + perceived value is critical to rebuild loyatly.
-- Only 16.91% of bookings used promo codes.
-  - **Implication**: Promos likely lack visibility/ targeting and aren't currently helping retention.
+- Sentiment is net-negative (37% negative vs 30% positive). Complaints cluster around customer service (35.08%) and low quality perception (34.6%). Complaints regarding physical quality perception such as seat discomfort is relatively small (9.5%), and "comfort" appears frequently in postive reviews.
+  - **Implication**: Given that disatisfaction is driven more by "intangibles" than product features, improving service experience + perceived value is critical to rebuild trust and repeat bookings.
+- Promo codes are underused (16.91% of bookings) despite SkyWings' positioning around competitive pricing.
+  - **Implication**: Promotions may lack visibility/ targeting and aren't currently supporting retention and its price-led value. 
 
 ### Business recommendations (prioritised)
-Because the biggest risks sit in reliability + service recovery + returning Economy retention, I recommend:
 1. **Reduce cancellations and strengthen disruption handling (“service netting”)**
-   - Prevent avoidable disruptions, communicate early, and offer immediate rebooking/compensation to stop trust erosion.
+   - Prevent avoidable disruptions, communicate early, and offer immediate rebooking/compensation to minimise trust erosion.
 2. **Win back returning Economy customers (highest-value repeat segment)**
    - Launch loyalty perks (e.g., priority boarding/seat selection) and proactively target lapsed returning customers with recovery offers/service guarantees.
 3. **Redesign promotions to be targeted “win-back” campaigns (not generic discounts)**
