@@ -30,7 +30,7 @@ For an airline, bookings and reputation directly drive revenue. SkyWings, once p
   - **Implication**: Returning Economy customers is the highest-ROI segment to fix.
 - Cancelled flight rates are significantly higher than industry norms (15% vs 2% in 2024). 
   - **Implication**: Cancellations are the main operational "trust breaker" driving lost bookings and negative sentiment.
-- Sentiment is net-negative (37% negative vs 30% positive). Complaints cluster around customer service (35.08%) and low quality perception (34.6%). Complaints regarding physical quality perception such as seat discomfort is relatively small (9.5%), and "comfort" appears frequently in postive reviews.
+- Sentiment is net-negative (37% negative vs 30% positive). Complaints cluster around customer service (35.08%) and low quality perception (34.6%). Although physical quality complaints like seat discomfort exist, they are relatively minor (9.5%), and “comfort” appears frequently in positive reviews.
   - **Implication**: Given that disatisfaction is driven more by "intangibles" than product features, improving service experience + perceived value is critical to rebuild trust and repeat bookings.
 - Promo codes are underused (16.91% of bookings) despite SkyWings' positioning around competitive pricing.
   - **Implication**: Promotions may lack visibility/ targeting and aren't currently supporting retention and its price-led value. 
